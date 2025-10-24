@@ -1,0 +1,2218 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior:smooth;
+}
+.large-contianer {
+  width: auto;
+  margin: auto;
+  height: auto;
+  margin-bottom:50px;
+  background: url(picture/background.webp);
+}
+.contianer {
+  width: 100%;
+  height: auto;
+  background: rgb(25, 20, 35);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position:fixed; */
+  /* position:absolute; */
+  /* color:white; */
+}
+.logo {
+  /* background:blue; */
+  margin-left: 10px;
+  padding: 10px;
+}
+.logo img {
+  width: 60px;
+}
+.more-text {
+  /* background:blue; */
+  color: white;
+  font-size: 50px;
+  margin-left: 150px;
+  font-family:seyha;
+}
+.login {
+  /* background:yellow; */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 1px;
+}
+.more-login {
+  background: rgb(193, 193, 230);
+  margin-right: 10px;
+  border-radius: 7px;
+  padding: 10px;
+}
+.second-login {
+  background: rgb(193, 193, 230);
+  border-radius: 7px;
+  padding: 10px;
+  margin-right: 10px;
+}
+.more-login a {
+  color: rgb(76, 60, 60);
+  text-decoration: none;
+  font-family: Lato Black;
+}
+.second-login a {
+  color: rgb(76, 60, 60);
+  text-decoration: none;
+  font-family: Lato Black;
+}
+.more-login:hover {
+  /* background: rgb(146, 140, 140); */
+  transition: 0.7s;
+  text-decoration: underline;
+}
+.second-login:hover {
+  /* background: rgb(151, 148, 148); */
+  transition: 0.7s;
+  text-decoration: underline;
+}
+.navbar {
+  width: 100%;
+  height: 100px;
+  background: url(picture/background.webp);
+  display: flex;
+  justify-content: center;
+  /* margin-top:100px; */
+  /* position:fixed; */
+  margin-top: 0px;
+}
+.second-navbar {
+  width: 70%;
+  height: 100px;
+  background: rgb(36, 30, 97);
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  margin-bottom: 20px;
+}
+.Home {
+  /* background:blue; */
+  margin-left: 20px;
+  padding: 5px 0px;
+  
+}
+.iphone {
+  /* background:blue; */
+  margin-left: 50px;
+  padding: 5px 0px;
+}
+.oppo {
+  /* background:blue; */
+  margin-left: 50px;
+  padding: 5px 0px;
+}
+.huwei {
+  /* background:blue; */
+  margin-left: 50px;
+  padding: 5px 0px;
+}
+.samsung {
+  /* background:blue; */
+  margin-left: 50px;
+  padding: 5px 0px;
+}
+.Home a {
+  text-decoration: none;
+  color: rgb(178, 226, 237);
+  transition: 0.5s;
+ font-family: "Bebas Neue", sans-serif;
+}
+.iphone a {
+  text-decoration: none;
+  color: rgb(178, 226, 237);
+  transition: 0.5s;
+  font-family: "Bebas Neue", sans-serif;
+}
+.oppo a {
+  text-decoration: none;
+   color: rgb(178, 226, 237);
+  transition: 0.5s;
+  font-family: "Bebas Neue", sans-serif;
+}
+.huwei a {
+  text-decoration: none;
+   color: rgb(178, 226, 237);
+  transition: 0.5s;
+  font-family: "Bebas Neue", sans-serif;
+}
+.samsung a {
+  text-decoration: none;
+  color: rgb(178, 226, 237);
+  transition: 0.5s;
+  font-family: "Bebas Neue", sans-serif;
+}
+.Home a:hover {
+  background: rgb(21, 34, 36);
+  /* text-decoration: underline; */
+  /* padding: 8px;
+  border-radius: 5px; */
+  /* margin-top: 3px; */
+  transition: 0.7s;
+}
+.iphone a:hover {
+ background: rgb(21, 34, 36);
+  /* text-decoration: underline; */
+   /* padding: 8px; */
+  border-radius: 5px; 
+  margin-top: 3px;
+  transition: 0.7s;
+}
+.oppo a:hover {
+ background: rgb(21, 34, 36);
+  /* text-decoration: underline; */
+   /* padding: 8px; */
+  border-radius: 5px; 
+  margin-top: 3px;
+  transition: 0.7s;
+}
+.huwei a:hover {
+  background: rgb(21, 34, 36);
+  /* text-decoration: underline; */
+  /* /* padding: 8px; */
+  border-radius: 5px; 
+  margin-top: 3px;
+  transition: 0.7s;
+}
+.samsung a:hover {
+  background: rgb(21, 34, 36);
+  /* text-decoration: underline; */
+  /* padding: 8px; */
+  border-radius: 5px;
+  margin-top: 3px;
+  transition: 0.7s;
+}
+.background{
+  background:url(picture/bb.jpg);
+}
+.picture {
+  
+  /* border: black; */
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  display: flex;
+  /* padding: 10px; */
+  /* margin-left:3px; */
+}
+
+.picture1 img {
+  width: 170px;
+  margin-left: 150px;
+}
+
+.picture2 img {
+  width: 125px;
+  /* background: black; */
+  /* margin-left:150px; */
+}
+.picture3 img {
+  width: 107px;
+  margin-left: 150px;
+  /* background: black; */
+  /* margin-bottom:10px; */
+}
+.picture4 img {
+  width: 70px;
+  margin-left: 150px;
+  margin-top:14px;
+ 
+}
+.box {
+  width: 100%;
+  height: auto;
+  /* background: rgb(25, 20, 35); */
+}
+.more-box {
+  /* position:absolute; */
+  font-family: facon;
+  font-size: 80px;
+  width: 100%;
+  height: auto;
+  margin-left: 24%;
+  border-radius: 20px;
+  color:white;
+}
+.third-contianer-image-iphone1 img{
+  width:80%;
+  margin-left:10%; 
+  margin-top:30px;
+}
+/*          change        */
+
+
+
+
+
+
+
+.third-contianer-imag-hu img{
+  width:100%;
+  margin-left:10%;
+}
+.third-contianer-image-2 img{
+  width:103%;
+  margin-top:20px;
+}
+.third-contianer-image-1 img{
+  width:90%;
+  margin-left:10%;
+  margin-top:30px;
+}
+.third-contianer-image-3 img{
+  width:80%;
+  margin-left:10%;
+  margin-top:30px;
+}
+.third-contianer-image-4 img{
+  width:87%;
+  margin-left:10%;
+  margin-top:20px;
+}
+.third-contianer-image-5 img{
+  width:90%;
+  margin-left:5%;
+  margin-top:20px;
+}
+.third-contianer-image-6 img{
+  width:90%;
+  margin-left:5%;
+  margin-top:20px;
+}
+.third-contianer-image-7 img{
+  width:88%;
+  margin-left:5%;
+  margin-top:25px;
+}
+.third-contianer-image-8 img{
+  width:88%;
+  margin-left:5%;
+  margin-top:25px;
+}
+.third-contianer-image-9 img{
+  width:85%;
+  margin-left:7%;
+  /* margin-top:25px; */
+}
+.third-contianer-image-10 img{
+  width:100%;
+  /* margin-left:7%; */
+  /* margin-top:25px; */
+    /* margin-right:10%; */
+}
+.third-contianer-image-11 img{
+  width:80%;
+  margin-left:10%;
+  margin-top:5px;
+  
+}
+.third-contianer-image-12 img{
+  width:105%;
+  /* margin-left:7%; */
+  /* margin-top:25px; */
+  
+}
+.third-contianer-image-13 img{
+  width:36%;
+  margin-left:32%; 
+   margin-top:60px;
+  
+}
+.third-contianer-image-14 img{
+  width:65%;
+  margin-left:15%; 
+   margin-top:0px;
+  
+}
+.third-contianer-image-15 img{
+  width:58%;
+  margin-left:23%; 
+   margin-top:35px;
+}
+.third-contianer-image-16 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:35px;
+}
+.third-contianer-image-17 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:35px;
+}
+.third-contianer-image-18 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:35px;
+}
+.third-contianer-image-19 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:35px;
+}
+.third-contianer-image-20 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:35px;
+}
+.third-contianer-image-21 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:35px;
+}
+.third-contianer-image-22 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:35px;
+}
+.third-contianer-image-23 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:35px;
+}
+.third-contianer-image-24 img{
+  width:53%;
+  margin-left:25%; 
+   margin-top:45px;
+}
+.third-contianer-image-25 img{
+  width:70%;
+  margin-left:15%; 
+   margin-top:20px;
+}
+.third-contianer-image-26 img{
+  width:95%;
+  margin-left:3%; 
+   margin-top:10px;
+}
+.third-contianer-image-27 img{
+  width:70%;
+  margin-left:15%; 
+   margin-top:20px;
+}
+.third-contianer-image-28 img{
+  width:70%;
+  margin-left:15%; 
+   margin-top:20px;
+}
+.third-contianer-image-29 img{
+  width:95%;
+  margin-left:3%; 
+   margin-top:10px;
+}
+.third-contianer-image-30 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:0px;
+}
+.third-contianer-image-31 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-32 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-33 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-34 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-35 img{
+  width:105%;
+  /* margin-left:10%;  */
+   margin-top:20px;
+}
+.third-contianer-image-last1 img{
+  width:85%;
+  margin-left:10%; 
+   margin-top:30px;
+}
+.third-contianer-image-36 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-37 img{
+  width:90%;
+  margin-left:10%; 
+   margin-top:5px;
+}
+.third-contianer-image-38 img{
+  width:75%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-39 img{
+  width:105%;
+  /* margin-left:10%;  */
+   margin-top:20px;
+}
+.third-contianer-image-40 img{
+  width:105%;
+  /* margin-left:10%;  */
+   margin-top:30px;
+}
+.third-contianer-image-41 img{
+  width:105%;
+  /* margin-left:10%;  */
+   margin-top:30px;
+}
+.third-contianer-image-42 img{
+  width:105%;
+  /* margin-left:10%;  */
+   margin-top:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first-contianer {
+  width: 100%;
+  height: auto;
+  /* background:black; */
+  display: flex;
+  margin-top: 40px;
+}
+.second-contianer {
+  width: 100%;
+  height: auto;
+  /* background: green; */
+
+  margin: auto;
+}
+.third-contianer {
+  width: 100%;
+  height: 265px;
+  /* background: rgb(243, 237, 237); */
+  transition: 0.8s;
+}
+.third-contianer img:hover {
+  /* background: rgb(109, 105, 105); */
+  transition: 1s;
+}
+.third-contianer-image a img {
+  width: 100%;
+}
+.third-contianer-imag img {
+  width: 75%;
+  /* margin:auto; */
+  margin-left: 40px;
+  /* margin-bottom:40px; */
+}
+
+.next-contianer {
+  width: 100%;
+  height: 150px;
+ background: rgb(234, 241, 245);
+  display: flex;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+.two-contianer {
+  /* background: rgb(126, 193, 193); */
+  box-shadow: 1px 1px 3px rgb(254, 252, 252);
+  width: 90%;
+
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.two-contianer:hover {
+ background: rgb(8, 23, 232);
+ background:blur;
+  transition: 1s;
+  /* width:66%; */
+}
+.third-contianer-image-one img {
+  width: 60%;
+  margin-left: 15%;
+}
+.third-contianer-image-two img {
+  width: 60%;
+  margin-left: 15%;
+}
+.third-contianer-image-first img {
+  width: 95%;
+
+  /* margin-right:50px; */
+}
+.third-contianer-image-1{
+  width:90%;
+
+}
+.third-contianer-image-2{
+  width:90%;
+
+}
+.third-contianer-image-five img{
+  width:84%;
+  margin-left:10%;
+  margin-top:14px;
+  
+}
+.text-contianer {
+  width: 100%;
+  height: auto;
+  /* background:red; */
+}
+.text {
+  justify-content: center;
+  /* display: flex; */
+  margin-top: 5px;
+  font-size: 18px;
+  text-align: center;
+  font-family:Lato Black;
+  /* color:white; */
+}
+
+.contianer-image {
+  background: rgb(7, 7, 179);
+  width: 59%;
+  height: 30px;
+  margin: auto;
+  
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  /* justify-content: center;  */
+  align-items: center;
+}
+
+.letter-contianer {
+  width: 50%;   
+  height: auto;
+  color:rgb(7, 251, 31);
+  /* background:white; */
+  margin-left: 35%;
+  /* margin-top:10px; */
+   font-family: "Bebas Neue", sans-serif;
+}
+.iphone-contianer {
+  /* background:yellow; */
+  width: 100%;
+  height: auto;
+  /* padding:10px; */
+  margin-top: 10px;
+  /* margin-left:auto; */
+}
+.navbar-iphone {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  /* background:white; */
+  font-family: Kh Baphnom_Limon F3 Italic;
+  font-size: 50px;
+  
+}
+.navbar-iphone a{
+  text-decoration:none;
+  color:white;
+  font-family:facon;
+}
+
+.contianer-of-iphone {
+  width: 100%;
+  height: auto;
+  background: url(picture/background.webp);
+  padding: 10px;
+  border-radius: 20px;
+}
+.contianer-of-oppo {
+  width: 100%;
+  margin-top: 50px;
+  height: auto;
+  background: rgb(165, 158, 158);
+  padding: 5px;
+  border-radius: 20px;
+}
+.contianer-of-hauwei {
+  width: 100%;
+  margin-top: 50px;
+  height: auto;
+  background: rgb(170, 175, 170);
+  padding: 5px;
+  border-radius: 20px;
+}
+.contianer-of-samsung {
+  width: 100%;
+  margin-top: 50px;
+  height: auto;
+  background: rgb(152, 155, 152);
+  padding: 5px;
+  border-radius: 20px;
+}
+.t{
+  bottom: 0px;
+  position: fixed;
+}
+.on-top a img{
+  position:relative;
+  position:fixed;
+  width:5%;
+  margin-left:95%;
+  margin-top:590px;
+}
+@font-face {
+  font-family: "facon";
+  src: url(Facon.ttf);
+}
+@font-face {
+  font-family: "seyha";
+  src: url(Blazed.ttf);
+}
+.price s{
+  color:rgb(223, 17, 24);
+  font-size:15px;
+  font-family:Cascadia Mono SemiBold;
+}
+.price p{
+  color:rgb(62, 128, 159);
+  font-size:15px;
+  font-family:Cascadia Mono SemiBold;
+}
+/* .price{
+  /* margin-top:12px; */
+.drop-down{
+  margin-top:40px;
+  background:rgb(38, 44, 38);
+  width:100%;
+  height:auto;
+  display:flex;
+  justify-content:space-between;
+}
+.more-drop{
+  width:15%;
+  margin-top:20px;
+  height:auto;
+  /* background:red; */
+  padding:10px;
+  margin-left:20px;
+}
+.text-one{
+  text-align:center;
+  font-size:15px;
+  font-family:Kozuka Gothic Pro L;
+  color:rgb(148, 105, 105);
+}
+.W{
+  font-size:20px;
+  color:aquamarine;
+}
+/* tablet */
+@media (min-width: 481px) and (max-width: 1279px) {
+  * {
+  margin: 0;
+  padding: 0;
+  scroll-behavior:smooth;
+}
+.large-contianer {
+  width: auto;
+  margin: auto;
+  height: auto;
+  margin-bottom:50px;
+  background: url(picture/background.webp);
+}
+.contianer {
+  width: 100%;
+  height: auto;
+  background: rgb(25, 20, 35);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position:fixed; */
+  /* position:absolute; */
+  /* color:white; */
+}
+.logo {
+  /* background:blue; */
+  margin-left: 10px;
+  padding: 10px;
+}
+.logo img {
+  width: 60px;
+}
+.more-text {
+  /* background:blue; */
+  color: white;
+  font-size: 25px;
+  margin-left: 150px;
+  font-family:seyha;
+}
+.login {
+  /* background:yellow; */
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 1px;
+}
+.more-login {
+  background: rgb(193, 193, 230);
+  margin-right: 5px;
+  border-radius: 7px;
+  padding: 5px;
+}
+.second-login {
+  background: rgb(193, 193, 230);
+  border-radius: 7px;
+  padding: 5px;
+  margin-right: 5px;
+}
+.more-login a {
+  color: rgb(76, 60, 60);
+  text-decoration: none;
+  font-family: Lato Black;
+}
+.second-login a {
+  color: rgb(76, 60, 60);
+  text-decoration: none;
+  font-family: Lato Black;
+}
+.more-login:hover {
+  /* background: rgb(146, 140, 140); */
+  transition: 0.7s;
+  text-decoration: underline;
+}
+.second-login:hover {
+  /* background: rgb(151, 148, 148); */
+  transition: 0.7s;
+  text-decoration: underline;
+}
+.navbar {
+  width: 100%;
+  height: 100px;
+  background: url(picture/background.webp);
+  display: flex;
+  justify-content: center;
+  /* margin-top:100px; */
+  /* position:fixed; */
+  margin-top: 0px;
+}
+.second-navbar {
+  width: 60%;
+  height: 100px;
+  background: rgb(36, 30, 97);
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  margin-bottom: 20px;
+}
+.Home {
+  /* background:blue; */
+  margin-left: 10px;
+  padding: 5px 0px;
+  
+}
+.iphone {
+  font-size:20px;
+  /* background:blue; */
+  margin-left: 10px;
+  padding: 5px 0px;
+}
+.oppo {
+  font-size:20px;
+  /* background:blue; */
+  margin-left: 10px;
+  padding: 5px 0px;
+}
+.huwei {
+  font-size:20px;
+  /* background:blue; */
+  margin-left: 10px;
+  padding: 5px 0px;
+}
+.samsung {
+  font-size:20px;
+  /* background:blue; */
+  margin-left: 10px;
+  padding: 5px 0px;
+}
+.Home a {
+  text-decoration: none;
+  color: rgb(178, 226, 237);
+  transition: 0.5s;
+ font-family: "Bebas Neue", sans-serif;
+}
+.iphone a {
+  text-decoration: none;
+  color: rgb(178, 226, 237);
+  transition: 0.5s;
+  font-family: "Bebas Neue", sans-serif;
+}
+.oppo a {
+  text-decoration: none;
+   color: rgb(178, 226, 237);
+  transition: 0.5s;
+  font-family: "Bebas Neue", sans-serif;
+}
+.huwei a {
+  text-decoration: none;
+   color: rgb(178, 226, 237);
+  transition: 0.5s;
+  font-family: "Bebas Neue", sans-serif;
+}
+.samsung a {
+  text-decoration: none;
+  color: rgb(178, 226, 237);
+  transition: 0.5s;
+  font-family: "Bebas Neue", sans-serif;
+}
+.Home a:hover {
+  background: rgb(21, 34, 36);
+  /* text-decoration: underline; */
+  /* padding: 8px;
+  border-radius: 5px; */
+  /* margin-top: 3px; */
+  transition: 0.7s;
+}
+.iphone a:hover {
+ background: rgb(21, 34, 36);
+  /* text-decoration: underline; */
+   /* padding: 8px; */
+  border-radius: 5px; 
+  margin-top: 3px;
+  transition: 0.7s;
+}
+.oppo a:hover {
+ background: rgb(21, 34, 36);
+  /* text-decoration: underline; */
+   /* padding: 8px; */
+  border-radius: 5px; 
+  margin-top: 3px;
+  transition: 0.7s;
+}
+.huwei a:hover {
+  background: rgb(21, 34, 36);
+  /* text-decoration: underline; */
+  /* /* padding: 8px; */
+  border-radius: 5px; 
+  margin-top: 3px;
+  transition: 0.7s;
+}
+.samsung a:hover {
+  background: rgb(21, 34, 36);
+  /* text-decoration: underline; */
+  /* padding: 8px; */
+  border-radius: 5px;
+  margin-top: 3px;
+  transition: 0.7s;
+}
+.background{
+  background:url(picture/bb.jpg);
+}
+.picture {
+  
+  /* border: black; */
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  display: flex;
+  /* padding: 10px; */
+  /* margin-left:3px; */
+}
+
+.picture1 img {
+  width: 170px;
+  margin-left: 150px;
+}
+
+.picture2 img {
+  width: 125px;
+  /* background: black; */
+  /* margin-left:150px; */
+}
+.picture3 img {
+  width: 107px;
+  margin-left: 150px;
+  /* background: black; */
+  /* margin-bottom:10px; */
+}
+.picture4 img {
+  width: 70px;
+  margin-left: 150px;
+  margin-top:14px;
+ 
+}
+.box {
+  width: 100%;
+  height: auto;
+  /* background: rgb(25, 20, 35); */
+}
+.more-box {
+  /* position:absolute; */
+  font-family: facon;
+  font-size: 60px;
+  width: 100%;
+  height: auto;
+  margin-left: 24%;
+  border-radius: 20px;
+  color:white;
+}
+.third-contianer-image-iphone1 img{
+  width:80%;
+  margin-left:10%; 
+  margin-top:30px;
+}
+/*          change        */
+
+
+
+
+
+
+
+
+.third-contianer-image-2 img{
+  width:103%;
+  margin-top:20px;
+}
+.third-contianer-image-1 img{
+  width:90%;
+  margin-left:10%;
+  margin-top:30px;
+}
+.third-contianer-image-3 img{
+  width:80%;
+  margin-left:10%;
+  margin-top:30px;
+}
+.third-contianer-image-4 img{
+  width:87%;
+  margin-left:10%;
+  margin-top:20px;
+}
+.third-contianer-image-5 img{
+  width:90%;
+  margin-left:5%;
+  margin-top:20px;
+}
+.third-contianer-image-6 img{
+  width:90%;
+  margin-left:5%;
+  margin-top:20px;
+}
+.third-contianer-image-7 img{
+  width:88%;
+  margin-left:5%;
+  margin-top:25px;
+}
+.third-contianer-image-8 img{
+  width:88%;
+  margin-left:5%;
+  margin-top:25px;
+}
+.third-contianer-image-9 img{
+  width:85%;
+  margin-left:7%;
+  /* margin-top:25px; */
+}
+.third-contianer-image-10 img{
+  width:100%;
+  /* margin-left:7%; */
+  /* margin-top:25px; */
+    /* margin-right:10%; */
+}
+.third-contianer-image-11 img{
+  width:80%;
+  margin-left:10%;
+  margin-top:5px;
+  
+}
+.third-contianer-image-12 img{
+  width:105%;
+  /* margin-left:7%; */
+  /* margin-top:25px; */
+  
+}
+.third-contianer-image-13 img{
+  width:36%;
+  margin-left:32%; 
+   margin-top:60px;
+  
+}
+.third-contianer-image-14 img{
+  width:65%;
+  margin-left:15%; 
+   margin-top:0px;
+  
+}
+.third-contianer-image-15 img{
+  width:58%;
+  margin-left:23%; 
+   margin-top:35px;
+}
+.third-contianer-image-16 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:35px;
+}
+.third-contianer-image-17 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:35px;
+}
+.third-contianer-image-18 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:35px;
+}
+.third-contianer-image-19 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:35px;
+}
+.third-contianer-image-20 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:35px;
+}
+.third-contianer-image-21 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:35px;
+}
+.third-contianer-image-22 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:35px;
+}
+.third-contianer-image-23 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:35px;
+}
+.third-contianer-image-24 img{
+  width:53%;
+  margin-left:25%; 
+   margin-top:45px;
+}
+.third-contianer-image-25 img{
+  width:70%;
+  margin-left:15%; 
+   margin-top:20px;
+}
+.third-contianer-image-26 img{
+  width:95%;
+  margin-left:3%; 
+   margin-top:10px;
+}
+.third-contianer-image-27 img{
+  width:70%;
+  margin-left:15%; 
+   margin-top:20px;
+}
+.third-contianer-image-28 img{
+  width:70%;
+  margin-left:15%; 
+   margin-top:20px;
+}
+.third-contianer-image-29 img{
+  width:95%;
+  margin-left:3%; 
+   margin-top:10px;
+}
+.third-contianer-image-30 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:0px;
+}
+.third-contianer-image-31 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-32 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-33 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-34 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-35 img{
+  width:105%;
+  /* margin-left:10%;  */
+   margin-top:20px;
+}
+.third-contianer-image-last1 img{
+  width:85%;
+  margin-left:10%; 
+   margin-top:30px;
+}
+.third-contianer-image-36 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-37 img{
+  width:90%;
+  margin-left:10%; 
+   margin-top:5px;
+}
+.third-contianer-image-38 img{
+  width:75%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-39 img{
+  width:105%;
+  /* margin-left:10%;  */
+   margin-top:20px;
+}
+.third-contianer-image-40 img{
+  width:105%;
+  /* margin-left:10%;  */
+   margin-top:30px;
+}
+.third-contianer-image-41 img{
+  width:105%;
+  /* margin-left:10%;  */
+   margin-top:30px;
+}
+
+.third-contianer-image-42 img{
+  width:105%;
+  /* margin-left:10%;  */
+   margin-top:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first-contianer {
+  width: 100%;
+  height: auto;
+  /* background:black; */
+  display: flex;
+  margin-top: 40px;
+}
+.second-contianer {
+  width: 100%;
+  height: auto;
+  /* background: green; */
+
+  margin: auto;
+}
+.third-contianer {
+  width: 100%;
+  height: 225px;
+  /* background: rgb(243, 237, 237); */
+  transition: 0.8s;
+}
+.third-contianer img:hover {
+  /* background: rgb(109, 105, 105); */
+  transition: 1s;
+}
+.third-contianer-image a img {
+  width: 100%;
+}
+.third-contianer-imag img {
+  width: 75%;
+  /* margin:auto; */
+  margin-left: 40px;
+  /* margin-bottom:40px; */
+}
+
+.next-contianer {
+  width: 100%;
+  height: 150px;
+ background: rgb(234, 241, 245);
+  display: flex;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+.two-contianer {
+  /* background: rgb(126, 193, 193); */
+  box-shadow: 1px 1px 3px rgb(254, 252, 252);
+  width: 90%;
+
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.two-contianer:hover {
+ background: rgb(8, 23, 232);
+ background:blur;
+  transition: 1s;
+  /* width:66%; */
+}
+.third-contianer-image-one img {
+  width: 60%;
+  margin-left: 19%;
+}
+.third-contianer-image-two img {
+  width: 60%;
+  margin-left: 15%;
+}
+.third-contianer-image-first img {
+  width: 95%;
+
+  /* margin-right:50px; */
+}
+.third-contianer-image-1{
+  width:90%;
+
+}
+.third-contianer-image-2{
+  width:90%;
+
+}
+.third-contianer-image-five img{
+  width:85%;
+  margin-left:0;
+  margin-left:10%;
+  margin-top:10px;
+}
+.text-contianer {
+  width: 100%;
+  height: auto;
+  /* background:red; */
+}
+.text {
+  justify-content: center;
+  /* display: flex; */
+  margin-top: 5px;
+  font-size: 18px;
+  text-align: center;
+  font-family:Lato Black;
+  /* color:white; */
+}
+
+.contianer-image {
+  background: rgb(7, 7, 179);
+  width: 59%;
+  height: 30px;
+  margin: auto;
+  
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  /* justify-content: center;  */
+  align-items: center;
+}
+
+.letter-contianer {
+  width: 50%;   
+  height: auto;
+  color:rgb(7, 251, 31);
+  /* background:white; */
+  margin-left: 35%;
+  /* margin-top:10px; */
+   font-family: "Bebas Neue", sans-serif;
+}
+.iphone-contianer {
+  /* background:yellow; */
+  width: 100%;
+  height: auto;
+  /* padding:10px; */
+  margin-top: 10px;
+  /* margin-left:auto; */
+}
+.navbar-iphone {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  /* background:white; */
+  font-family: Kh Baphnom_Limon F3 Italic;
+  font-size: 40px;
+  
+}
+.navbar-iphone a{
+  text-decoration:none;
+  color:white;
+  font-family:facon;
+}
+
+.contianer-of-iphone {
+  width: 100%;
+  height: auto;
+  background: url(picture/background.webp);
+  padding: 10px;
+  border-radius: 20px;
+}
+.contianer-of-oppo {
+  width: 100%;
+  margin-top: 50px;
+  height: auto;
+  background: rgb(165, 158, 158);
+  padding: 5px;
+  border-radius: 20px;
+}
+.contianer-of-hauwei {
+  width: 100%;
+  margin-top: 50px;
+  height: auto;
+  background: rgb(170, 175, 170);
+  padding: 5px;
+  border-radius: 20px;
+}
+.contianer-of-samsung {
+  width: 100%;
+  margin-top: 50px;
+  height: auto;
+  background: rgb(152, 155, 152);
+  padding: 5px;
+  border-radius: 20px;
+}
+.t{
+  bottom: 0px;
+  position: fixed;
+}
+.on-top a img{
+  position:relative;
+  position:fixed;
+  width:5%;
+  margin-left:95%;
+  margin-top:1290px;
+}
+@font-face {
+  font-family: "facon";
+  src: url(Facon.ttf);
+}
+@font-face {
+  font-family: "seyha";
+  src: url(Blazed.ttf);
+}
+.price s{
+  color:rgb(223, 17, 24);
+  font-size:15px;
+  font-family:Cascadia Mono SemiBold;
+}
+.price p{
+  color:rgb(62, 128, 159);
+  font-size:15px;
+  font-family:Cascadia Mono SemiBold;
+}
+/* .price{
+  /* margin-top:12px; */
+.drop-down{
+  margin-top:40px;
+  background:rgb(38, 44, 38);
+  width:100%;
+  height:auto;
+  display:flex;
+  justify-content:space-between;
+}
+.more-drop{
+  width:15%;
+  margin-top:20px;
+  height:auto;
+  /* background:red; */
+  padding:10px;
+  margin-left:20px;
+}
+.text-one{
+  text-align:center;
+  font-size:15px;
+  font-family:Kozuka Gothic Pro L;
+  color:rgb(148, 105, 105);
+}
+.W{
+  font-size:20px;
+  color:aquamarine;
+}
+}
+/* Mobile */
+@media (max-width: 480px) {
+ * {
+  margin: 0;
+  padding: 0;
+  scroll-behavior:smooth;
+}
+.large-contianer {
+  width: auto;
+  margin: auto;
+  height: auto;
+  margin-bottom:50px;
+  background: url(picture/background.webp);
+}
+.contianer {
+  width: 100%;
+  height: auto;
+  background: rgb(25, 20, 35);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position:fixed; */
+  /* position:absolute; */
+  /* color:white; */
+}
+.logo {
+  /* background:blue; */
+  margin-left: 10px;
+  padding: 10px;
+}
+.logo img {
+  width: 60px;
+}
+.more-text {
+  /* background:blue; */
+  color: white;
+  font-size: 20px;
+  margin-left: 130px;
+  font-family:seyha;
+}
+.login {
+  /* background:yellow; */
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 1px;
+  font-size:10px;
+}
+.more-login {
+  background: rgb(193, 193, 230);
+  margin-right: 3px;
+  border-radius: 7px;
+  padding: 3px;
+  font-size:10px;
+}
+.second-login {
+  background: rgb(193, 193, 230);
+  border-radius: 7px;
+  padding: 3px;
+  margin-right: 3px;
+}
+.more-login a {
+  color: rgb(76, 60, 60);
+  text-decoration: none;
+  font-family: Lato Black;
+}
+.second-login a {
+  color: rgb(76, 60, 60);
+  text-decoration: none;
+  font-family: Lato Black;
+}
+.more-login:hover {
+  /* background: rgb(146, 140, 140); */
+  transition: 0.7s;
+  text-decoration: underline;
+}
+.second-login:hover {
+  /* background: rgb(151, 148, 148); */
+  transition: 0.7s;
+  text-decoration: underline;
+}
+.navbar {
+  width: 100%;
+  height: 70px;
+  background: url(picture/background.webp);
+  display: flex;
+  justify-content: center;
+  /* margin-top:100px; */
+  /* position:fixed; */
+  margin-top: 0px;
+}
+.second-navbar {
+  width: 70%;
+  height: 70px;
+  background: rgb(36, 30, 97);
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  margin-bottom: 20px;
+}
+.Home {
+  /* background:blue; */
+  margin-left: 5px;
+  padding: 5px 0px;
+  font-size:10px;
+  
+}
+.iphone {
+  /* background:blue; */
+  margin-left: 10px;
+  padding: 5px 0px;
+  font-size:10px;
+}
+.oppo {
+  /* background:blue; */
+  margin-left: 10px;
+  padding: 5px 0px;
+  font-size:10px;
+}
+.huwei {
+  /* background:blue; */
+  margin-left: 10px;
+  padding: 5px 0px;
+  font-size:10px;
+}
+.samsung {
+  /* background:blue; */
+  margin-left: 10px;
+  padding: 5px 0px;
+  font-size:10px;
+}
+.samsung img{
+  width:20px;
+}
+.Home a {
+  text-decoration: none;
+  color: rgb(178, 226, 237);
+  transition: 0.5s;
+ font-family: "Bebas Neue", sans-serif;
+}
+.iphone a {
+  text-decoration: none;
+  color: rgb(178, 226, 237);
+  transition: 0.5s;
+  font-family: "Bebas Neue", sans-serif;
+}
+.oppo a {
+  text-decoration: none;
+   color: rgb(178, 226, 237);
+  transition: 0.5s;
+  font-family: "Bebas Neue", sans-serif;
+}
+.huwei a {
+  text-decoration: none;
+   color: rgb(178, 226, 237);
+  transition: 0.5s;
+  font-family: "Bebas Neue", sans-serif;
+}
+.samsung a {
+  text-decoration: none;
+  color: rgb(178, 226, 237);
+  transition: 0.5s;
+  font-family: "Bebas Neue", sans-serif;
+}
+.Home a:hover {
+  background: rgb(21, 34, 36);
+  /* text-decoration: underline; */
+  /* padding: 8px;
+  border-radius: 5px; */
+  /* margin-top: 3px; */
+  transition: 0.7s;
+}
+.iphone a:hover {
+ background: rgb(21, 34, 36);
+  /* text-decoration: underline; */
+   /* padding: 8px; */
+  border-radius: 5px; 
+  margin-top: 3px;
+  transition: 0.7s;
+}
+.oppo a:hover {
+ background: rgb(21, 34, 36);
+  /* text-decoration: underline; */
+   /* padding: 8px; */
+  border-radius: 5px; 
+  margin-top: 3px;
+  transition: 0.7s;
+}
+.huwei a:hover {
+  background: rgb(21, 34, 36);
+  /* text-decoration: underline; */
+  /* /* padding: 8px; */
+  border-radius: 5px; 
+  margin-top: 3px;
+  transition: 0.7s;
+}
+.samsung a:hover {
+  background: rgb(21, 34, 36);
+  /* text-decoration: underline; */
+  /* padding: 8px; */
+  border-radius: 5px;
+  margin-top: 3px;
+  transition: 0.7s;
+}
+.background{
+  background:url(picture/bb.jpg);
+}
+.picture {
+  
+  /* border: black; */
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  display: flex;
+  /* padding: 10px; */
+  /* margin-left:3px; */
+}
+
+.picture1 img {
+  width: 100px;
+  margin-left: 50px;
+}
+
+.picture2 img {
+  width: 70px;
+  /* background: black; */
+  /* margin-left:150px; */
+}
+.picture3 img {
+  width: 65px;
+  margin-left: 50px;
+  /* background: black; */
+  /* margin-bottom:10px; */
+}
+.picture4 img {
+  width: 40px;
+  margin-left: 50px;
+  margin-top:14px;
+ 
+}
+.box {
+  width: 100%;
+  height: auto;
+  /* background: rgb(25, 20, 35); */
+}
+.more-box {
+  /* position:absolute; */
+  font-family: facon;
+  font-size: 30px;
+  width: 100%;
+  height: auto;
+  margin-left: 20%;
+  border-radius: 20px;
+  color:white;
+}
+.third-contianer-image-iphone1 img{
+  width:80%;
+  margin-left:10%; 
+  margin-top:30px;
+}
+/*          change        */
+
+
+
+
+
+
+
+
+.third-contianer-image-2 img{
+  width:103%;
+  margin-top:7px;
+}
+.third-contianer-image-1 img{
+  width:90%;
+  margin-left:10%;
+  margin-top:20px;
+}
+.third-contianer-image-3 img{
+  width:80%;
+  margin-left:10%;
+  margin-top:30px;
+}
+.third-contianer-image-4 img{
+  width:87%;
+  margin-left:10%;
+  margin-top:20px;
+}
+.third-contianer-image-5 img{
+  width:90%;
+  margin-left:5%;
+  margin-top:10px;
+}
+.third-contianer-image-6 img{
+  width:90%;
+  margin-left:5%;
+  margin-top:10px;
+}
+.third-contianer-image-7 img{
+  width:88%;
+  margin-left:5%;
+  margin-top:15px;
+}
+.third-contianer-image-8 img{
+  width:88%;
+  margin-left:5%;
+  margin-top:15px;
+}
+.third-contianer-image-9 img{
+  width:85%;
+  margin-left:7%;
+  /* margin-top:25px; */
+}
+.third-contianer-image-10 img{
+  width:100%;
+  /* margin-left:7%; */
+  /* margin-top:25px; */
+    /* margin-right:10%; */
+}
+.third-contianer-image-11 img{
+  width:80%;
+  margin-left:10%;
+  margin-top:5px;
+  
+}
+.third-contianer-image-12 img{
+  width:105%;
+  /* margin-left:7%; */
+  /* margin-top:25px; */
+  
+}
+.third-contianer-image-13 img{
+  width:36%;
+  margin-left:32%; 
+   margin-top:20px;
+  
+}
+.third-contianer-image-14 img{
+  width:65%;
+  margin-left:15%; 
+   margin-top:10px;
+  
+}
+.third-contianer-image-15 img{
+  width:58%;
+  margin-left:23%; 
+   margin-top:10px;
+}
+.third-contianer-image-16 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:10px;
+}
+.third-contianer-image-17 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:10px;
+}
+.third-contianer-image-18 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:10px;
+}
+.third-contianer-image-19 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:10px;
+}
+.third-contianer-image-20 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:10px;
+}
+.third-contianer-image-21 img{
+  width:58%;
+  margin-left:22%; 
+   margin-top:10px;
+}
+.third-contianer-image-22 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:10px;
+}
+.third-contianer-image-23 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:10px;
+}
+.third-contianer-image-24 img{
+  width:53%;
+  margin-left:25%; 
+   margin-top:10px;
+}
+.third-contianer-image-25 img{
+  width:70%;
+  margin-left:15%; 
+   margin-top:10px;
+}
+.third-contianer-imag-hu img{
+  width:80%;
+  margin-left:15%;
+
+}
+.third-contianer-image-26 img{
+  width:95%;
+  margin-left:3%; 
+   margin-top:10px;
+}
+.third-contianer-image-27 img{
+  width:70%;
+  margin-left:15%; 
+   margin-top:10px;
+}
+.third-contianer-image-28 img{
+  width:70%;
+  margin-left:15%; 
+   margin-top:10px;
+}
+.third-contianer-image-29 img{
+  width:95%;
+  margin-left:3%; 
+   margin-top:10px;
+}
+.third-contianer-image-30 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:0px;
+}
+.third-contianer-image-31 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-32 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-33 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-34 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-35 img{
+  width:105%;
+  /* margin-left:10%;  */
+   margin-top:20px;
+}
+.third-contianer-image-last1 img{
+  width:85%;
+  margin-left:10%; 
+   margin-top:30px;
+}
+.third-contianer-image-36 img{
+  width:80%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-37 img{
+  width:90%;
+  margin-left:10%; 
+   margin-top:5px;
+}
+.third-contianer-image-38 img{
+  width:75%;
+  margin-left:10%; 
+   margin-top:20px;
+}
+.third-contianer-image-39 img{
+  width:105%;
+  /* margin-left:10%;  */
+   margin-top:20px;
+}
+.third-contianer-image-40 img{
+  width:105%;
+  /* margin-left:10%;  */
+   margin-top:30px;
+}
+.third-contianer-image-41 img{
+  width:105%;
+  /* margin-left:10%;  */
+   margin-top:30px;
+}
+.third-contianer-image-42 img{
+  width:105%;
+  /* margin-left:10%;  */
+   margin-top:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first-contianer {
+  width: 100%;
+  height: auto;
+  /* background:black; */
+  display: flex;
+  margin-top: 20px;
+}
+.second-contianer {
+  width: 100%;
+  height: auto;
+  /* background: green; */
+
+  margin: auto;
+}
+.third-contianer {
+  width: 80%;
+  height: 50px;
+  /* background: rgb(243, 237, 237); */
+  transition: 0.8s;
+}
+.third-contianer img:hover {
+  /* background: rgb(109, 105, 105); */
+  transition: 1s;
+}
+.third-contianer-image a img {
+  width: 100%;
+}
+.third-contianer-imag img {
+  width: 75%;
+  /* margin:auto; */
+  margin-left: 40px;
+  /* margin-bottom:40px; */
+}
+
+.next-contianer {
+  width: 90%;
+  height: 60px;
+ background: rgb(234, 241, 245);
+  display: flex;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.two-contianer {
+  /* background: rgb(126, 193, 193); */
+  box-shadow: 1px 1px 3px rgb(254, 252, 252);
+  width: 70%;
+
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.two-contianer:hover {
+ background: rgb(8, 23, 232);
+ background:blur;
+  transition: 1s;
+  /* width:66%; */
+}
+.third-contianer-image-one img {
+  width: 60%;
+  margin-left: 15%;
+}
+.third-contianer-image-two img {
+  width: 60%;
+  margin-left: 15%;
+}
+.third-contianer-image-first img {
+  width: 95%;
+
+  /* margin-right:50px; */
+}
+.third-contianer-image-1{
+  width:90%;
+
+}
+.third-contianer-image-2{
+  width:90%;
+
+}
+.third-contianer-image-five{
+  width:70%;
+  margin-left:0;
+}
+.text-contianer {
+  width: 100%;
+  height: auto;
+  /* background:red; */
+}
+.text {
+  justify-content: center;
+  /* display: flex; */
+  margin-top: 5px;
+  font-size: 6px;
+  text-align: center;
+  font-family:Lato Black;
+  /* color:white; */
+}
+
+.contianer-image {
+  background: rgb(7, 7, 179);
+  width: 59%;
+  height: 15px;
+  margin: auto;
+  
+  margin-top: 7px;
+  border-radius: 8px;
+  display: flex;
+  /* justify-content: center;  */
+  align-items: center;
+}
+
+.letter-contianer {
+  width: 50%;  
+  font-size:5px; 
+  height: auto;
+  color:rgb(7, 251, 31);
+  /* background:white; */
+  margin-left: 29%;
+  /* margin-top:10px; */
+   font-family: "Bebas Neue", sans-serif;
+}
+.iphone-contianer {
+  /* background:yellow; */
+  width: 100%;
+  height: auto;
+  /* padding:10px; */
+  margin-top: 10px;
+  /* margin-left:auto; */
+}
+.navbar-iphone {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  /* background:white; */
+  font-family: Kh Baphnom_Limon F3 Italic;
+  font-size: 20px;
+  
+}
+.navbar-iphone a{
+  text-decoration:none;
+  color:white;
+  font-family:facon;
+}
+
+.contianer-of-iphone {
+  width: 100%;
+  height: auto;
+  background: url(picture/background.webp);
+  padding: 0px;
+  border-radius: 20px;
+}
+.contianer-of-oppo {
+  width: 100%;
+  margin-top: 50px;
+  height: auto;
+  background: rgb(165, 158, 158);
+  padding: 5px;
+  border-radius: 20px;
+}
+.contianer-of-hauwei {
+  width: 100%;
+  margin-top: 50px;
+  height: auto;
+  background: rgb(170, 175, 170);
+  padding: 5px;
+  border-radius: 20px;
+}
+.contianer-of-samsung {
+  width: 100%;
+  margin-top: 50px;
+  height: auto;
+  background: rgb(152, 155, 152);
+  padding: 5px;
+  border-radius: 20px;
+}
+.t{
+  bottom: 0px;
+  position: fixed;
+}
+.on-top a img{
+  position:relative;
+  position:fixed;
+  width:5%;
+  margin-left:95%;
+  margin-top:740px;
+}
+@font-face {
+  font-family: "facon";
+  src: url(Facon.ttf);
+}
+@font-face {
+  font-family: "seyha";
+  src: url(Blazed.ttf);
+}
+.price s{
+  color:rgb(223, 17, 24);
+  font-size:7px;
+  font-family:Cascadia Mono SemiBold;
+}
+.price p{
+  color:rgb(62, 128, 159);
+  font-size:7px;
+  font-family:Cascadia Mono SemiBold;
+}
+/* .price{
+  /* margin-top:12px; */
+.drop-down{
+  margin-top:40px;
+  background:rgb(38, 44, 38);
+  width:100%;
+  height:auto;
+  display:flex;
+  justify-content:space-between;
+}
+.more-drop{
+  width:15%;
+  margin-top:20px;
+  height:auto;
+  /* background:red; */
+  padding:10px;
+  margin-left:20px;
+}
+.text-one{
+  text-align:center;
+  font-size:5px;
+  font-family:Kozuka Gothic Pro L;
+  color:rgb(148, 105, 105);
+}
+.W{
+  font-size:10px;
+  color:aquamarine;
+} 
+}
